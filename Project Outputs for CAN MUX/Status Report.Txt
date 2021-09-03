@@ -1,21 +1,10 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [CAN MUX.PrjPcb]
-   Generated File[CAN MUX.GTO]
-   Generated File[CAN MUX.GTP]
-   Generated File[CAN MUX.GTS]
-   Generated File[CAN MUX.GTL]
-   Generated File[CAN MUX.GBL]
-   Generated File[CAN MUX.GBS]
-   Generated File[CAN MUX.GBP]
-   Generated File[CAN MUX.GBO]
-   Generated File[CAN MUX.GM2]
-   Generated File[CAN MUX.RUL]
-   Generated File[CAN MUX.EXTREP]
-   Generated File[CAN MUX.REP]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of BOM Document [BOM.BomDoc]
+   Generated File[Bill of Materials-BOM.xlsx]
 
 
-Files Generated   : 12
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 13:07:11 On 30.10.2020
+Finished Output Generation At 16:26:22 On 31.08.2021
