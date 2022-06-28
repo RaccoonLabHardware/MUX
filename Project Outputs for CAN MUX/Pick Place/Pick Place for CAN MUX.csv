@@ -4,30 +4,28 @@ C:\altium workspace\UAVCAN-MUX\Project Outputs for CAN MUX\Pick Place\Pick Place
 ========================================================================================================================
 File Design Information:
 
-Date:       31.08.21
-Time:       16:26
-Revision:   a063258a40021f5eb3e05a8eed64f885c77ea380
+Date:       06.06.22
+Time:       14:55
+Revision:   e19ec75882d2383e03a7017731a8660a39224fd4
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
-"L1","IHLP2020BZER100M01","TopLayer","IHLP","148.8000","273.6000","270","10AµH Shielded Molded Inductor 2.3A 199mOhm Max Nonstandard"
-"C8","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","156.2000","272.9000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
+"OUT","XT30PW-F","BottomLayer","XT30PW-F","161.1019","271.8616","270",""
+"IN","XT30PW-M","TopLayer","XT30PW-M","134.8835","272.7251","270",""
+"L1","IHLP3232DZER8R2M01","TopLayer","*INDM8681X400N","149.6000","272.2000","0","Силовой Индуктор (SMD), 8.2 мкГн, 5.5 А, Экранированный, 10 А, Серия IHLP-3232DZ-01"
+"C8","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","155.6000","272.7000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
 "C7","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","153.0000","272.8000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
-"C6","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","144.0000","272.9000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
-"C5","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","146.7000","272.9000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
-"C4","TAJD156K050RNJ","TopLayer","CAPPM7343X310N_-_duplicate","154.0000","273.0000","270","TAJD156K050RNJ, Танталовые конденсаторы - твердые, для поверхностного монтажа 50V 15uF 10%"
-"C3","TAJD156K050RNJ","TopLayer","CAPPM7343X310N_-_duplicate","158.7000","272.9000","270","TAJD156K050RNJ, Танталовые конденсаторы - твердые, для поверхностного монтажа 50V 15uF 10%"
-"C1","TAJD156K050RNJ","TopLayer","CAPPM7343X310N_-_duplicate","141.8000","272.5000","270","TAJD156K050RNJ, Танталовые конденсаторы - твердые, для поверхностного монтажа 50V 15uF 10%"
+"C6","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","145.1000","272.8000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
+"C5","GRM31CR71H225KA88L","BottomLayer","*CAP3216X125N","147.8000","272.8000","270","1206 2.2 uF 50 V В±10% Tolerance X7R SMT Multilayer Ceramic Capacitor"
 "CAN4","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","149.9000","260.5750","180","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
 "CAN3","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","149.8250","284.5000","0","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
-"J1","XT30-M","BottomLayer","XT30-M_side","140.5000","272.6500","270",""
 "CAN-B5","502585-0670","TopLayer","MOLEX_502585-0670","156.1500","262.8500","0","1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural"
 "CAN1","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","139.7000","284.4250","0","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
 "CAN2","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","159.3000","260.5750","180","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
-"CAN-SNIFFER1","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","140.3000","260.5750","180","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
+"CAN6","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","140.3000","260.5750","180","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
 "CAN-B4","502585-0670","TopLayer","MOLEX_502585-0670","166.5500","272.4000","90","1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural"
-"CAN-AP1","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","159.9250","284.4000","0","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
+"CAN5","SM04B-GHS-TB(LF)(SN)-","BottomLayer","JST_SM04B-GHS-TB(LF)(SN)-","159.9250","284.4000","0","Connector Header Surface Mount, Right Angle 4 position 0.049 _1.25mm_"
 "CAN-B3","502585-0670","TopLayer","MOLEX_502585-0670","156.2500","281.8500","180","1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural"
 "CAN-B2","502585-0670","TopLayer","MOLEX_502585-0670","141.8500","281.8500","180","1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural"
 "CAN-B1","502585-0670","TopLayer","MOLEX_502585-0670","141.7881","262.8500","0","1.50mm Pitch, CLIK-Mate PCB Receptacle, Single Row, Surface Mount, Right-Angle, Tin Plating, Positive Lock, 6 Circuits, Natural"
