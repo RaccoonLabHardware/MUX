@@ -12,7 +12,7 @@ jobs:
       - name: Checkout pcb-versions repo
         uses: actions/checkout@v3
         with:
-          repository: InnopolisAero/pcb-versions
+          repository: RaccoonLabHardware/pcb-versions
           token: ${{ secrets.ACCESS_TOKEN }}
           path: repo/pcb-versions
 
