@@ -1,14 +1,12 @@
-# DroneCAN/Cyphal kNode
+# CAN MUX
 
-<img src="doc/view.png" alt="drawing" height="300"/>
-
-<img src="doc/view-top.png" alt="drawing" height="300"/>
-
-<img src="doc/view-bottom.png" alt="drawing" height="300"/>
+| View | Top | Bottom |
+| ---- | --- | ------ |
+| <img src="doc/view.png" alt="drawing"> | <img src="doc/view-top.png" alt="drawing"/> | <img src="doc/view-bottom.png" alt="drawing"/> |
 
 ## Doc
 
-- [User manual](https://innopolisaero.github.io/inno_uavcan_node_binaries/guide/gps_mag_baro/)
+- [User manual](https://raccoonlabdev.github.io/docs/guide/power/)
 - [Hardware docs](doc/doc.pdf)
 
 ## TERMS OF USAGE / LICENCE
