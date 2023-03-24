@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for MUX
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -109,23 +109,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Project Outputs for CAN MUX\CAMtastic2.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=DRW.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,87 +125,108 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=Project Outputs\CAMtastic1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
-DocumentPath=Project Outputs for CAN MUX\BOM\Bill of Materials-BOM.xlsx
+DocumentPath=Project Outputs\BOM\Bill of Materials-BOM.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for CAN MUX\NC Drill\CAN MUX.DRR
+DocumentPath=doc\MUX.step
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.EXTREP
+DocumentPath=Project Outputs\NC Drill\PCB.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GBL
+DocumentPath=Project Outputs\Gerber\PCB.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GBO
+DocumentPath=Project Outputs\Gerber\PCB.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GBP
+DocumentPath=Project Outputs\Gerber\PCB.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GBS
+DocumentPath=Project Outputs\Gerber\PCB.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GM2
+DocumentPath=Project Outputs\Gerber\PCB.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GTL
+DocumentPath=Project Outputs\Gerber\PCB.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GTO
+DocumentPath=Project Outputs\Gerber\PCB.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GTP
+DocumentPath=Project Outputs\Gerber\PCB.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.GTS
+DocumentPath=Project Outputs\Gerber\PCB.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for CAN MUX\NC Drill\CAN MUX.LDP
+DocumentPath=Project Outputs\Gerber\PCB.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.REP
+DocumentPath=Project Outputs\NC Drill\PCB.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for CAN MUX\Gerber\CAN MUX.RUL
+DocumentPath=Project Outputs\Gerber\PCB.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for CAN MUX\NC Drill\CAN MUX.TXT
+DocumentPath=Project Outputs\Gerber\PCB.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for CAN MUX\Pick Place\Pick Place for CAN MUX.csv
+DocumentPath=Project Outputs\NC Drill\PCB.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for CAN MUX\Pick Place\Pick Place for CAN MUX.txt
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.csv
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=doc\view-bottom.png
+DocumentPath=Project Outputs\Pick Place\Pick Place for PCB.txt
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=doc\view-top.png
+DocumentPath=doc\view-bottom.png
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=doc\view-top.png
+DItemRevisionGUID=
+
+[GeneratedDocument22]
 DocumentPath=doc\view.png
 DItemRevisionGUID=
 
@@ -241,7 +245,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for MUX
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -352,7 +356,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Kyocera ECOSYS M3645dn
+TargetPrinter=Xprinter XP-365B
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -804,36 +808,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
