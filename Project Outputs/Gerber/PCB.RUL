@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\altium workspace\RCL\MUX\PCB.PcbDoc
+DRC Rules Export File for PCB: C:\Users\beljj\Desktop\проекты\GitHub\MUX\PCB.PcbDoc
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.69
 RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.69
